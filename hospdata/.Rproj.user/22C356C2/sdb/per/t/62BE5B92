@@ -1,0 +1,16 @@
+{
+    "contents" : "complete <- function(directory, id = 1:332) {\n     allObservations<-NULL\n\n     for(j in id) {\n          fnmtmp<- paste(\"000\",j, sep=\"\")\n          filenm<-substr(fnmtmp,nchar(fnmtmp)-2,nchar(fnmtmp))\n          path <- paste(directory,filenm,sep=\"/\")\n          fname <-paste(path,\".csv\",sep=\"\")\n          allData<-read.csv(fname)\n          \n          noGoodData1<-complete.cases(allData[,2])\n          noGoodData2<-complete.cases(allData[,3])\n          completeObservation<-noGoodData1&noGoodData2\n\n          allObservations <-rbind(allObservations,c(j,sum(completeObservation)))\n     }\n     frameData<-data.frame(allObservations)\n     names(frameData)<-c(\"id\",\"nobs\")\n     print(frameData)\n}",
+    "created" : 1407088529302.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4073622253",
+    "id" : "62BE5B92",
+    "lastKnownWriteTime" : 1405887320,
+    "path" : "~/Documents/R/Practice/complete.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

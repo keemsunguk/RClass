@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1407089161119.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "D8F0327",
+    "lastKnownWriteTime" : 4692796116632690480,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "allstate",
+        "contentUrl" : "content?title=allstate&file=b036421755ff4776812d1121cae8d53e.htm",
+        "displayedObservations" : "11",
+        "displayedVariables" : 2,
+        "totalObservations" : "11",
+        "variables" : "2"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

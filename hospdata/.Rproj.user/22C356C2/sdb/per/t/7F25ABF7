@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1407090132726.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "7F25ABF7",
+    "lastKnownWriteTime" : 4692796115035095040,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "ldi",
+        "contentUrl" : "content?title=ldi&file=a609131f51dd45d78f4ba3f445a6d07e.htm",
+        "displayedObservations" : 1,
+        "displayedVariables" : 3,
+        "totalObservations" : 1,
+        "variables" : 3
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
