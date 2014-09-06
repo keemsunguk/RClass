@@ -16,5 +16,6 @@ complete <- function(directory, id = 1:332) {
      }
      frameData<-data.frame(allObservations)
      names(frameData)<-c("id","nobs")
-     print(frameData)
+     #print(frameData)
+     frameData
 }
